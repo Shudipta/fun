@@ -1,0 +1,62 @@
+GET https://registry-1.docker.io/v2/docker.io/tigerworks/labels/blobs/sha256:32d205c402867e38abe9828603059ddc61d11f565358ea45ec820cd721e9102b
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080718.401.json
+
+###
+
+GET https://registry-1.docker.io/v2
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080655.401.json
+
+###
+
+GET https://registry-1.docker.io
+Accept:*/*
+Cache-Control:no-cache
+
+###
+
+GET https://registry-1.docker.io/v2/shudipta/book_server
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080636.404.txt
+
+###
+
+GET https://registry-1.docker.io/v2
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080558.401.json
+
+###
+
+GET https://registry-1.docker.io/tigerworks/labels/blobs/sha256:32d205c402867e38abe9828603059ddc61d11f565358ea45ec820cd721e9102b
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080328.404.txt
+
+###
+
+GET https://registry-1.docker.io/https://registry-1.docker.io/v2/docker.io/tigerworks/labels/blobs/sha256:32d205c402867e38abe9828603059ddc61d11f565358ea45ec820cd721e9102b
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080317.404.txt
+
+###
+
+GET https://registry-1.docker.io/v2/docker.io
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2018-02-06T080223.404.txt
+
+###
+
