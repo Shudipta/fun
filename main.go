@@ -6,5 +6,5 @@ import(
 )
 
 func main() {
-	fmt.Println(docker.GetLabels("tigerworks/labels:latest"))
+	fmt.Println(docker.GetLabels("shudipta/labels"))
 }
