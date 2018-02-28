@@ -12,8 +12,6 @@ import (
 	"k8s.io/kubernetes/pkg/util/parsers"
 	"fmt"
 	//"log"
-	//"bytes"
-	"bytes"
 )
 
 func Annotate(depl *appsv1.Deployment) (*appsv1.Deployment, error) {
@@ -90,6 +88,10 @@ func GetLabels(img string) (map[string]string, error) {
 	if err != nil {
 		return labels, fmt.Errorf("couldn't get the manifest: %v", err)
 	}
+	//fmt.Println("\n\n\n_____________manifest is\n", manifest)
+	canonical, err := manifest.MarshalJSON()
+	fmt.Println("\n\n\n_____________manifest is\n", string(canonical))
+	oneliners.FILE("manifest.Config.Digest________", manifest.Config.Digest)
 	oneliners.FILE("manifest.Config.Digest________", manifest.Config.Digest.Encoded())
 	//oneliners.FILE("manifest.Layers[0].Digest__________", manifest.Layers[0].Digest.Encoded())
 
@@ -111,7 +113,6 @@ func GetLabels(img string) (map[string]string, error) {
 	}
 	//oneliners.FILE(err)
 	defer reader.Close()
-
 
 	oneliners.FILE("labels are:", cfg.Config.Labels)
 	return cfg.Config.Labels, nil
