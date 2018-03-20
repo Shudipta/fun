@@ -1,8 +1,8 @@
 package main
 
-import(
-	"fmt"
+import (
 	"fun/docker"
+	"fmt"
 )
 
 func main() {

@@ -46,8 +46,8 @@ func GetLabels(img string) (map[string]string, error) {
 	var err error
 
 	url := "https://registry-1.docker.io/"
-	username := "shudipta" // anonymous
-	password := "pi-shudipta" // anonymous
+	username := "" // anonymous
+	password := "" // anonymous
 
 	hub, err := registry.New(url, username, password)
 	if err != nil {

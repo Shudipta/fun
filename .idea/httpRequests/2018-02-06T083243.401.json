@@ -1,1 +1,0 @@
-{"errors":[{"code":"UNAUTHORIZED","message":"authentication required","detail":[{"Type":"repository","Class":"","Name":"docker.io/shudipta/book_server","Action":"pull"}]}]}
